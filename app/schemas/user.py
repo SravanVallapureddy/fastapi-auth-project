@@ -9,7 +9,7 @@ class UserResponse(BaseModel):
     id: int
     full_name: str
     email: EmailStr
-
+    account_verified: bool
     class Config:
         from_attributes = True
 
